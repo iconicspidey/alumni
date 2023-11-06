@@ -725,17 +725,21 @@ section {
   height: 50px;
 }
 
-#contact-form input[type='submit'] {
+#contact-form input[type='submit'], .link-custom {
   border-radius: 50px;
   border: 1px solid transparent;
 }
 
-#contact-form input[type='submit']:hover {
+#contact-form input[type='submit']:hover, .link-custom {
   background: transparent;
   border-color: #ffffff;
   color: #ffffff;
 }
 
+.link-custom {
+  padding: 12px;
+  text-align: center;
+}
 
 
 
@@ -807,7 +811,7 @@ footer .social-icon {
   margin: 5px 0;
 }
 
-.newsletter-form input[type="submit"] {
+.newsletter-form input[type="submit"], .link-custom {
   background: transparent;
   border: 1px solid #f9f9f9;
   border-radius: 50px;
